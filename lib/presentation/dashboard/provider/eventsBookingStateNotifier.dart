@@ -1,4 +1,3 @@
-import 'package:celebrazioni/core/resources/constants.dart';
 import 'package:celebrazioni/presentation/dashboard/model/eventBookingModel.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';

@@ -1,11 +1,9 @@
 import 'dart:ui';
 
-import 'package:celebrazioni/presentation/Auth/pages/signUp/signUp.screen.dart';
 import 'package:celebrazioni/presentation/dashboard/model/eventTypeModel.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:celebrazioni/domain/models/itemsModel.dart';
 import 'package:celebrazioni/project/_widgets/custom_container.dart';
 import 'package:celebrazioni/theme/custom_text_style.dart';

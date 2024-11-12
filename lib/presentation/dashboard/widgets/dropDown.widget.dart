@@ -1,10 +1,6 @@
 import 'package:celebrazioni/core/resources/constants.dart';
-import 'package:celebrazioni/presentation/dashboard/page/dashboard.dart';
 import 'package:celebrazioni/presentation/dashboard/provider/eventsBookingStateNotifier.dart';
 import 'package:celebrazioni/presentation/dashboard/provider/providers.dart';
-import 'package:celebrazioni/project/_widgets/custom_container.dart';
-import 'package:celebrazioni/project/_widgets/custom_textfield.dart';
-import 'package:celebrazioni/theme/custom_text_style.dart';
 import 'package:celebrazioni/theme/theme_helper.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';

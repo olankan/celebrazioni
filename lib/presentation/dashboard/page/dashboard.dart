@@ -1,8 +1,6 @@
-import 'package:celebrazioni/core/resources/constants.dart';
 import 'package:celebrazioni/presentation/dashboard/model/eventTypeModel.dart';
 import 'package:celebrazioni/presentation/dashboard/provider/eventsBookingStateNotifier.dart';
 import 'package:celebrazioni/presentation/dashboard/widgets/bookEvents.widget.dart';
-import 'package:celebrazioni/project/_widgets/custom_textfield.dart';
 import 'package:eva_icons_flutter/eva_icons_flutter.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -15,10 +13,8 @@ import 'package:celebrazioni/presentation/bottomBar/bottomBar.dart';
 import 'package:celebrazioni/presentation/dashboard/provider/providers.dart';
 import 'package:celebrazioni/presentation/dashboard/widgets/itemsListview/itemsListview.dart';
 import 'package:celebrazioni/project/_widgets/custom_container.dart';
-import 'package:celebrazioni/project/_widgets/custom_image_view.dart';
 import 'package:celebrazioni/theme/custom_text_style.dart';
 import 'package:celebrazioni/theme/theme_helper.dart';
-import 'package:salomon_bottom_bar/salomon_bottom_bar.dart';
 
 class DashBoard extends ConsumerWidget {
   const DashBoard({super.key});
@@ -101,7 +97,7 @@ class DashBoard extends ConsumerWidget {
                                   child: CustomContainer(
                                     wantBoxShadow: true,
                                     showImage: true,
-                                    imageUrl: 'assets/images/ola.jpg',
+                                    imageUrl: 'assets/images/nathan.png',
                                     backgroundColor: Colors.black,
                                     borderWidth: 2,
                                     borderColor: Color(0xFF25CE71),
@@ -177,7 +173,6 @@ class DashBoard extends ConsumerWidget {
         bottomNavigationBar: BottomBar(),
         floatingActionButton: FloatingActionButton.small(
           onPressed: () {
-           
             showModalBottomSheet(
                 context: context,
                 backgroundColor: Colors.white,

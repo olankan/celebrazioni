@@ -3,7 +3,6 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:celebrazioni/presentation/dashboard/provider/providers.dart';
-import 'package:celebrazioni/project/_widgets/custom_container.dart';
 import 'package:celebrazioni/theme/custom_text_style.dart';
 import 'package:celebrazioni/theme/theme_helper.dart';
 import 'package:salomon_bottom_bar/salomon_bottom_bar.dart';

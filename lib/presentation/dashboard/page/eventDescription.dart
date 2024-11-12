@@ -1,7 +1,5 @@
 import 'dart:ui';
 
-import 'package:celebrazioni/core/resources/images.dart';
-import 'package:celebrazioni/presentation/Auth/pages/signUp/signUp.screen.dart';
 import 'package:celebrazioni/presentation/dashboard/model/eventTypeModel.dart';
 import 'package:celebrazioni/project/_widgets/custom_container.dart';
 import 'package:celebrazioni/theme/custom_text_style.dart';

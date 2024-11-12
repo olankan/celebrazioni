@@ -23,29 +23,31 @@ class _SplashScreenState extends State<SplashScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: PrimaryColors.white,
-      body: Center(
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.center,
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Image.asset(
-              'assets/images/celebrazioni1.jpeg',
-              // scale: 4.r,
-              height: 84.h,
-              width: 316.w,
-            ).animate().fadeIn(),
-            5.verticalSpace,
-            Image.asset(
-              'assets/images/celebrazioni2.jpeg',
-              // scale: 4.r,
-              height: 84.h,
-              width: 316.w,
-            ).animate().fadeIn(),
-          ],
+ 
+      return Scaffold(
+        backgroundColor: PrimaryColors.white,
+        body: Center(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Image.asset(
+                'assets/images/celebrazioni1.jpeg',
+                // scale: 4.r,
+                height: 84.h,
+                width: 316.w,
+              ).animate().fadeIn(),
+              5.verticalSpace,
+              Image.asset(
+                'assets/images/celebrazioni2.jpeg',
+                // scale: 4.r,
+                height: 84.h,
+                width: 316.w,
+              ).animate().fadeIn(),
+            ],
+          ),
         ),
-      ),
-    );
+      );
+    
   }
 }
